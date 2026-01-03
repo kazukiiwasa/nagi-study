@@ -1,0 +1,97 @@
+{
+  "main": [
+    {
+      "title": "私たちについて",
+      "path": "/about/"
+    },
+    {
+      "title": "会社概要",
+      "path": "/company/"
+    },
+    {
+      "title": "サービス",
+      "path": "/services/",
+      "children": [
+        {
+          "title": "Webサイト・アプリケーション開発",
+          "path": "/services/#web-development"
+        },
+        {
+          "title": "モバイルアプリ開発",
+          "path": "/services/#mobile-apps"
+        },
+        {
+          "title": "UI/UXデザイン",
+          "path": "/services/#uiux-design"
+        },
+        {
+          "title": "デジタル戦略",
+          "path": "/services/#digital-strategy"
+        }
+      ]
+    },
+    {
+      "title": "制作実績",
+      "path": "/works/"
+    },
+    {
+      "title": "お知らせ",
+      "path": "/news/"
+    }
+  ],
+
+  "contact": {
+    "title": "お問い合わせ",
+    "path": "/contact/"
+  },
+
+  "footer": [
+    {
+      "name": "サービス",
+      "menus": [
+        {
+          "title": "サービス",
+          "path": "/services/"
+        },
+        {
+          "title": "制作実績",
+          "path": "/works/"
+        }
+      ]
+    },
+    {
+      "name": "リソース",
+      "menus": [
+        {
+          "title": "お知らせ",
+          "path": "/news/"
+        },
+        {
+          "title": "よくあるご質問",
+          "path": "/services/#faq"
+        }
+      ]
+    },
+    {
+      "name": "会社情報",
+      "menus": [
+        {
+          "title": "私たちについて",
+          "path": "/about/"
+        },
+        {
+          "title": "会社概要",
+          "path": "/company/"
+        },
+        {
+          "title": "お問い合わせ",
+          "path": "/contact/"
+        },
+        {
+          "title": "個人情報保護方針",
+          "path": "/privacy/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+---
+import Container from "@/components/layout/Container.astro";
+import Section from "@/components/layout/Section.astro";
+import LinkButton from "@/components/ui/LinkButton.astro";
+import SectionTitle from "@/components/ui/SectionTitle.astro";
+---
+
+<Section background="secondary">
+  <Container>
+    <div class="about-inner">
+      <SectionTitle
+        title="About"
+        subtitle="私たちについて"
+        class="about-header"
+      />
+
+      <div class="about-content">
+        <p class="about-text">
+          私たちは、デザインとテクノロジーの力で、<br />
+          ブランドの本質を引き出し、新しい価値を生み出します。<br />
+          <br />
+          戦略的な思考と緻密なクラフトマンシップで、<br />
+          ユーザーの心に響く体験を設計し、<br />
+          ビジネスの成長を加速させるデジタルソリューションを提供します。<br />
+          <br />
+          一つひとつのプロジェクトに真摯に向き合い、<br />
+          クライアントと共に未来を描いていく。<br />
+          それが私たちのスタイルです。
+        </p>
+        <LinkButton
+          href="/about/"
+          ariaLabel="私たちについて"
+          size="medium"
+          variant="outlined"
+          class="about-link"
+        >
+          私たちについて
+        </LinkButton>
+      </div>
+    </div>
+  </Container>
+</Section>
+
+<style lang="scss">
+  .about-inner {
+    @media (min-width: 900px) {
+      display: grid;
+      grid-template-columns: 20% 1fr;
+      gap: 0 var(--sp-4xl);
+    }
+  }
+
+  .about-header {
+    margin-bottom: var(--sp-xl);
+
+    @media (min-width: 900px) {
+      position: sticky;
+      top: var(--sp-4xl);
+      flex-direction: column;
+      align-items: start;
+      align-self: flex-start;
+      flex-grow: 1;
+      margin: 0;
+      min-width: fit-content;
+    }
+  }
+
+  .about-text {
+    color: var(--c-text);
+    font-size: var(--fs-xl);
+    line-height: var(--lh-loose);
+
+    @media (min-width: 600px) {
+      font-size: var(--fs-2xl);
+    }
+  }
+
+  .about-link {
+    margin: var(--sp-lg) 0 0;
+  }
+</style>

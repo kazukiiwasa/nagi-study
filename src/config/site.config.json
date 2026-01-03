@@ -1,0 +1,42 @@
+{
+  "site": {
+    "title": "株式会社Nagi",
+    "title_long": "株式会社Nagi - デジタルプロダクトのデザイン・開発",
+    "description": "デジタルプロダクトのデザイン・開発、ブランディング戦略、UI/UXコンサルティングを提供する株式会社Nagiの公式サイトです。",
+    "author": "株式会社Nagi",
+    "company_name": "株式会社Nagi",
+    "copyright": "© 2025 Nagi Inc.",
+    "og_image": "images/ogp.png",
+    "favicon": "images/favicon.svg",
+    "themeColor": "#222828",
+    "lang": "ja"
+  },
+
+  "settings": {
+    "pagination": 10,
+    "header_height": "74px",
+    "header_height_mobile": "60px"
+  },
+
+  "google": {
+    "analytics": "G-XXXXXXXXX"
+  },
+
+  "social": {
+    "twitter_creator": "@sample"
+  },
+
+  "company": {
+    "postal_code": "150-0001",
+    "address": "東京都渋谷区神宮前 6-23-4 桑野ビル 2F",
+    "tel": "03-1234-5678",
+    "email": "info@site.com",
+    "ceo_name": "桐島 紗耶",
+    "ceo_title": "代表取締役社長",
+    "established": "2015年4月1日",
+    "capital": "3,000万円",
+    "employees": "28名（2025年1月現在）",
+    "business_hours": "平日 9:00 - 18:00",
+    "business_hours_note": "(土日祝日は休業)"
+  }
+}
