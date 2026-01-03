@@ -43,7 +43,7 @@ const works = defineCollection({
 });
 
 const news = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/data/news" }),
+  loader: glob({ pattern: "**/*.md", base: "./src/data/blog" }),
   schema: z.object({
     title: z.string(),
     category: z.enum(newsCategories),
