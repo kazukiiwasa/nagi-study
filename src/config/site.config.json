@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "株式会社Nagi",
-    "title_long": "株式会社Nagi - デジタルプロダクトのデザイン・開発",
+    "title": "株式会社ライジングサン・システムコンサルティング",
+    "title_long": "株式会社ライジングサン・システムコンサルティング - 本気のDX推進をサポートします。",
     "description": "デジタルプロダクトのデザイン・開発、ブランディング戦略、UI/UXコンサルティングを提供する株式会社Nagiの公式サイトです。",
-    "author": "株式会社Nagi",
-    "company_name": "株式会社Nagi",
-    "copyright": "© 2025 Nagi Inc.",
+    "author": "株式会社ライジングサン・システムコンサルティング",
+    "company_name": "株式会社ライジングサン・システムコンサルティング",
+    "copyright": "© 2025 Risingsun System Consulting K.K.",
     "og_image": "images/ogp.png",
     "favicon": "images/favicon.svg",
     "themeColor": "#222828",
